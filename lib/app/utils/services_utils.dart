@@ -36,10 +36,10 @@ List<ServicesUtils> servicesUtils = [
     tool: ['Flutter'],
   ),
   ServicesUtils(
-    name: 'Azur Devops',
+    name: 'Node js',
     icon: 'assets/icons/website.svg',
     description:
-        "Utilized Azure DevOps for streamlined CI/CD pipelines, enhancing team collaboration and project delivery efficiency.",
-    tool: ['Azur Devops'],
+        "Designed and developed a scalable backend for the WellessZ web application using Node.js, .",
+    tool: ['Node js'],
   ),
 ];

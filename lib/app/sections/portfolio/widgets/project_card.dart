@@ -76,24 +76,24 @@ class ProjectCardState extends State<ProjectCard> {
                 ],
               ),
             ),
-            AnimatedOpacity(
-              duration: const Duration(milliseconds: 400),
-              opacity: isHover ? 0.1 : 1.0,
-              child: Container(
-                width: Responsive.isDesktop(context) ? 30.w : 70.w,
-                height: 36.h,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                  image: DecorationImage(
-                      image: AssetImage(widget.project.banners),
-                      fit: BoxFit.cover),
-                ),
-                // child: Image.asset(
-                //   widget.project.banners,
-                //   fit: BoxFit.cover,
-                // ),
-              ),
-            ),
+            // AnimatedOpacity(
+            //   duration: const Duration(milliseconds: 400),
+            //   opacity: isHover ? 0.1 : 1.0,
+            //   child: Container(
+            //     width: Responsive.isDesktop(context) ? 30.w : 70.w,
+            //     height: 36.h,
+            //     decoration: BoxDecoration(
+            //       borderRadius: BorderRadius.circular(10),
+            //       image: DecorationImage(
+            //           image: AssetImage(widget.project.banners),
+            //           fit: BoxFit.cover),
+            //     ),
+            //     // child: Image.asset(
+            //     //   widget.project.banners,
+            //     //   fit: BoxFit.cover,
+            //     // ),
+            //   ),
+            // ),
           ],
         ),
       ),
